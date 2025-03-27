@@ -9,3 +9,5 @@ Ambiente de execução que vai interpretar o bytecode do Java. Diferente de outr
 - Obviamente que, sabendo disso, podemos dizer que é praticamente obrigatório ter a **JVM** instalada no computador.
 - É a **JVM** que vai fazer o *gerenciamento de memória*, *coleta de lixo* do nosso programa, *reciclar variáveis que não estão sendo utilizadas*, *segurança*, etc.
 
+## Java Development Kit (JDK)
+É aqui onde colocamos o nosso código, que vai ser transformado em *bytecode* posteriormente. É necessário instalar tanto a **JVM** quanto o **JDK** para poder codar em Java.
