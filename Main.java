@@ -33,9 +33,24 @@ public class Main {
           *
           * ## Números inteiros
           *
+          * - byte: 8 bits -> -128 a 127
+          * - short: 16 bits -> -32.768 a 32.767
+          * - int: 32 bits -> -2.147.483.648 a 2.147.483.647
+          * - long: 64 bits -> -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
           *
+          * ## Números Decimais
           *
+          * - float: 32 bits -> precisao simples (19.23, 55.0)
+          * - double: 64 bits -> precisao dupla (19.9999999, 23.500) para muitos numeros depois da virgula
           *
+          * ## Textos
+          *
+          * - String: representar palavras e frases ("")
+          * - char: representar um unico caracter ('')
+          *
+          * ## Verdadeiro ou Falso
+          *
+          * - boolean: true ou false. 0 ou 1. Verdadeiro ou Falso.
           *
           */
 
