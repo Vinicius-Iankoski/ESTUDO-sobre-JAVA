@@ -99,5 +99,61 @@ public class Main {
     nomes.remove(0);
     // podemos remover tanto pelo conteudo quanto pelo indice.
     
+// LOOPS - Sintaxe
+    for (int i = 0; i < grupoDeInteiros.length; i++){
+        System.out.println(grupoDeInteiros[i]);
+    };
+    // "i" se chama iterador. O ArrayList tem uma maneira específica
+    // de se fazer o processo nos loops, porém não foi passado
+    // no vídeo da Fernanda.
+    System.out.println("------------");
+    grupoDeInteiros[2] = 3;
+    for (int numeros : grupoDeInteiros){
+        System.out.println(numeros);
     }
+    // Sintaxe muito boa para arrays/vetores.
+    // o int representa o tipo de conteudo que temos na array
+    // selecionada (grupoDeInteiros), e numeros é o nosso iterador.
+
+    System.out.println("------------");
+    int contador = 0;
+    while(contador < 10){
+        System.out.println("Loop do while");
+        contador++;
+        // é fundamental colocar o contador++, do contrário, o while
+        // NUNCA terá fim.
+    }
+
+// CASTING
+/*
+ * Primeiramente, o que significa "casting"?
+ * Casting, basicamente, transforma o tipo de uma variável em outro.
+ * De double para int, de int para double, de String para int, de String para double, enfim.
+ * 
+ * Esse processo, no entanto, é feito com a criação de uma variável, de forma explícita ou implícita.
+ */
+    System.out.println("------------");
+    int numeroInteiro = 10;
+    double numeroReal = numeroInteiro;
+    System.out.println(numeroReal);
+    // CASTING INDIRETO ^
+
+    System.out.println("------------");
+    double numeroTeste = 11.3;
+    int meuInteiro = (int) numeroTeste;
+    System.out.println(meuInteiro);
+
+    System.out.println("------------");
+    String meuString = "111";
+    int meuInt = Integer.parseInt(meuString);
+    //Integer, assim como String, é uma classe.
+    System.out.println(meuInt);
+
+    // Bora mudar esse int para String novamente!
+    System.out.println("------------");
+    String novaString = String.valueOf(meuInt);
+    System.out.println (novaString);
+
+    // Todos esses últimos são CASTING EXPLÍCITO ^.
+}
 }
