@@ -99,5 +99,23 @@ public class Main {
     nomes.remove(0);
     // podemos remover tanto pelo conteudo quanto pelo indice.
     
+// LOOPS - Sintaxe
+    for (int i = 0; i < grupoDeInteiros.length; i++){
+        System.out.println(grupoDeInteiros[i]);
+    };
+    // "i" se chama iterador. O ArrayList tem uma maneira específica
+    // de se fazer o processo nos loops, porém não foi passado
+    // no vídeo da Fernanda.
+    System.out.println("------------");
+    grupoDeInteiros[2] = 3;
+    for (int numeros : grupoDeInteiros){
+        System.out.println(numeros);
+    }
+    // Sintaxe muito boa para arrays/vetores.
+    // o int representa o tipo de conteudo que temos na array
+    // selecionada (grupoDeInteiros), e numeros é o nosso iterador.
+
+    
+
     }
 }
