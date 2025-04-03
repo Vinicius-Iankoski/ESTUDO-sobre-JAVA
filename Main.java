@@ -124,5 +124,36 @@ public class Main {
         // NUNCA terá fim.
     }
 
-    }
+// CASTING
+/*
+ * Primeiramente, o que significa "casting"?
+ * Casting, basicamente, transforma o tipo de uma variável em outro.
+ * De double para int, de int para double, de String para int, de String para double, enfim.
+ * 
+ * Esse processo, no entanto, é feito com a criação de uma variável, de forma explícita ou implícita.
+ */
+    System.out.println("------------");
+    int numeroInteiro = 10;
+    double numeroReal = numeroInteiro;
+    System.out.println(numeroReal);
+    // CASTING INDIRETO ^
+
+    System.out.println("------------");
+    double numeroTeste = 11.3;
+    int meuInteiro = (int) numeroTeste;
+    System.out.println(meuInteiro);
+
+    System.out.println("------------");
+    String meuString = "111";
+    int meuInt = Integer.parseInt(meuString);
+    //Integer, assim como String, é uma classe.
+    System.out.println(meuInt);
+
+    // Bora mudar esse int para String novamente!
+    System.out.println("------------");
+    String novaString = String.valueOf(meuInt);
+    System.out.println (novaString);
+
+    // Todos esses últimos são CASTING EXPLÍCITO ^.
+}
 }
