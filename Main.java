@@ -115,7 +115,14 @@ public class Main {
     // o int representa o tipo de conteudo que temos na array
     // selecionada (grupoDeInteiros), e numeros é o nosso iterador.
 
-    
+    System.out.println("------------");
+    int contador = 0;
+    while(contador < 10){
+        System.out.println("Loop do while");
+        contador++;
+        // é fundamental colocar o contador++, do contrário, o while
+        // NUNCA terá fim.
+    }
 
     }
 }
